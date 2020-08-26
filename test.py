@@ -46,7 +46,7 @@ test_dataloader_flip = DataLoader(test_dataset_flip, batch_size=batch_size, shuf
 print(len(test_dataloader_no_flip))
 
 # Loading the model 
-state_dict_path = Path(__file__).parent.joinpath('pretrained', f'emofan_{n_expression}.pth')
+state_dict_path = Path(__file__).parent.joinpath('pretrained', f'emonet_{n_expression}.pth')
 
 print(f'Loading the model from {state_dict_path}.')
 state_dict = torch.load(str(state_dict_path), map_location='cpu')

@@ -16,3 +16,6 @@ Results on AffectNet cleaned set
     CCC=0.75, PCC=0.75, RMSE=0.27, SAGR=0.80
 
 
+License
+------------------------
+Code available under a Creative Commons Attribution-Non Commercial-No Derivatives 4.0 International Licence (CC BY-NC-ND) license.

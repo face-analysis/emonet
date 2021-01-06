@@ -1,4 +1,3 @@
-===========================
 Estimation of continuous valence and arousal levels from faces in naturalistic conditions.
 ===========================
 Official implementation of the paper "Estimation of continuous valence and arousal levels from faces in naturalistic conditions" by Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic published at Nature Machine Intelligence, January 2020. Work done in collaboration between Samsung AI Center Cambridge and Imperial College London.
@@ -11,8 +10,7 @@ YouTube Video:
 Results on AffectNet cleaned set
 ------------------------
 
-.. code::
-
+```
   Expression
     ACC=0.75
 
@@ -20,7 +18,7 @@ Results on AffectNet cleaned set
     CCC=0.82, PCC=0.82, RMSE=0.29, SAGR=0.84
     Arousal
     CCC=0.75, PCC=0.75, RMSE=0.27, SAGR=0.80
-
+```
 
 License
 ------------------------

@@ -1,13 +1,9 @@
 ===========================
 Estimation of continuous valence and arousal levels from faces in naturalistic conditions.
 ===========================
-Estimation of continuous valence and arousal levels from faces in naturalistic conditions. 
+Official implementation of the paper "Estimation of continuous valence and arousal levels from faces in naturalistic conditions" by Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic published at Nature Machine Intelligence, January 2020. Work done in collaboration between Samsung AI Center Cambridge and Imperial College London.
 
-Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic. 
-Nature Machine Intelligence, January 2020. 
-Work done at Samsung AI Cambridge and Imperial College London. 
-
-Article available on the Nature Machine Intelligence website :  https://www.nature.com/articles/s42256-020-00280-0.
+Please find the full article on the [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-020-00280-0)
 
 YouTube Video:
 

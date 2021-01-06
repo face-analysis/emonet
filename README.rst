@@ -9,6 +9,14 @@ Work done at Samsung AI Cambridge and Imperial College London.
 
 Article available on the Nature Machine Intelligence website :  https://www.nature.com/articles/s42256-020-00280-0.
 
+YouTube Video:
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=EqBn7oApMI4">Estimation of continuous valence and arousal levels from faces in naturalistic conditions
+  <br>
+  <img src="https://img.youtube.com/vi/EqBn7oApMI4/0.jpg"></a>
+</p>
+
 
 Results on AffectNet cleaned set
 ------------------------

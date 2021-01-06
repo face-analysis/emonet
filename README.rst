@@ -11,12 +11,6 @@ Article available on the Nature Machine Intelligence website :  https://www.natu
 
 YouTube Video:
 
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=EqBn7oApMI4">Estimation of continuous valence and arousal levels from faces in naturalistic conditions
-  <br>
-  <img src="https://img.youtube.com/vi/EqBn7oApMI4/0.jpg"></a>
-</p>
-
 
 Results on AffectNet cleaned set
 ------------------------

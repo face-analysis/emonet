@@ -8,6 +8,11 @@ Please find the full article on the [Nature Machine Intelligence website](https:
 
 YouTube Video:
 
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=EqBn7oApMI4">Automatic emotion analysis from faces in-the-wild
+  <br>
+  <img src="https://img.youtube.com/vi/EqBn7oApMI4/0.jpg"></a>
+</p>
 
 The code requires the following Python packages : 
 

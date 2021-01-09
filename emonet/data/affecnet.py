@@ -5,7 +5,6 @@ import torch
 import math
 from torch.utils.data import Dataset
 from skimage import io
-from PIL import Image 
 
 class AffectNet(Dataset):
     _expressions = {0: 'neutral', 1:'happy', 2:'sad', 3:'surprise', 4:'fear', 5:'disgust', 6:'anger', 7:'contempt', 8:'none'}
@@ -34,7 +33,6 @@ class AffectNet(Dataset):
         with open(self.pickle_path, 'br') as f:
             data = pickle.load(f)
         self.data = data
-        print(len(self.data.keys()))
 
         # the keys are the image names (name.ext)
         self.keys = []
@@ -98,7 +96,6 @@ class AffectNet(Dataset):
             msg = f' --  {len(self.keys)} images, skipped {len(self.skipped)} images ({len(self.skipped["pt_pt_error"])} with large errors).'
             print(msg)
             print(f'Samples per class : {self.sample_per_class}')
-            print(f'using {self.average_per_class} samples, with weights={self.expression_weights}')
 
     def __len__(self):
         return len(self.keys)
@@ -108,6 +105,7 @@ class AffectNet(Dataset):
         sample_data = self.data[key]
 
         image_file = self.image_path.joinpath(key).as_posix()
+
         valence = torch.tensor([float(sample_data['valence'])], dtype=torch.float32)
         arousal = torch.tensor([float(sample_data['arousal'])], dtype=torch.float32)
         expression = int(sample_data['expression'])

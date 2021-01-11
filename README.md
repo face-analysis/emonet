@@ -13,7 +13,7 @@ Please find the full article on the [Nature Machine Intelligence website](https:
 ## Youtube Video
 
 <p align="center">
-  <a href="https://https://www.youtube.com/watch?v=J8Skph65ghM">Automatic emotion analysis from faces in-the-wild
+  <a href="https://www.youtube.com/watch?v=J8Skph65ghM">Automatic emotion analysis from faces in-the-wild
   <br>
   <img src="https://img.youtube.com/vi/J8Skph65ghM/0.jpg"></a>
 </p>

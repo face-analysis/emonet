@@ -1,18 +1,29 @@
-Estimation of continuous valence and arousal levels from faces in naturalistic conditions, Nature Machine Intelligence 2021
-===========================
+# Estimation of continuous valence and arousal levels from faces in naturalistic conditions, Nature Machine Intelligence 2021
 
 Official implementation of the paper _"Estimation of continuous valence and arousal levels from faces in naturalistic conditions"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](#citing).
 Work done in collaboration between Samsung AI Center Cambridge and Imperial College London.
 
 Please find the full article on the [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-020-00280-0)
 
-YouTube Video:
+<p align='center'>
+<img src='images/emotion_only.gif' title='Emotion' style='max-width:600px'></img>
+</p>
+
+<p align='center'>
+<img src='images/emotion_with_landmarks.gif' title='Emotion with landmarks' style='max-width:600px'></img>
+</p>
+
+
+## Youtube Video
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=EqBn7oApMI4">Automatic emotion analysis from faces in-the-wild
   <br>
   <img src="https://img.youtube.com/vi/EqBn7oApMI4/0.jpg"></a>
 </p>
+
+
+## Testing the pretrained models
 
 The code requires the following Python packages : 
 
@@ -34,8 +45,8 @@ where nclass defines which model you would like to test (5 or 8).
 
 The program will output the following results :
 
-Results on AffectNet cleaned test set for 5 classes
-------------------------
+#### Results on AffectNet cleaned test set for 5 classes
+
 
 ```
  Expression
@@ -47,8 +58,7 @@ Results on AffectNet cleaned test set for 5 classes
   CCC=0.80, PCC=0.80, RMSE=0.24, SAGR=0.79
 ```
 
-Results on AffectNet cleaned test set for 8 classes
-------------------------
+#### Results on AffectNet cleaned test set for 8 classes
 
 ```
   Expression
@@ -59,8 +69,9 @@ Results on AffectNet cleaned test set for 8 classes
   Arousal
     CCC=0.75, PCC=0.75, RMSE=0.27, SAGR=0.80
 ```
-Citing
-------
+
+## Citation
+
 If you use this code, please cite:
 
 ```
@@ -75,6 +86,6 @@ If you use this code, please cite:
 
 [1] _"Estimation of continuous valence and arousal levels from faces in naturalistic conditions"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 
 
-License
-------------------------
+## License
+
 Code available under a Creative Commons Attribution-Non Commercial-No Derivatives 4.0 International Licence (CC BY-NC-ND) license.

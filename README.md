@@ -3,7 +3,7 @@
 Official implementation of the paper _"Estimation of continuous valence and arousal levels from faces in naturalistic conditions"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](#citing).
 Work done in collaboration between Samsung AI Center Cambridge and Imperial College London.
 
-Please find the full article on the [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-020-00280-0)
+Please find the full article on the [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-020-00280-0).
 
 <p align='center'>
 <img src='images/emotion_only.gif' title='Emotion' style='max-width:600px'></img>

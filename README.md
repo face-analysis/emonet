@@ -5,13 +5,9 @@ Work done in collaboration between Samsung AI Center Cambridge and Imperial Coll
 
 Please find the full article on the [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-020-00280-0).
 
-<p align='center'>
-<img src='images/emotion_only.gif' title='Emotion' style='max-width:600px'></img>
-</p>
-
-<p align='center'>
-<img src='images/emotion_with_landmarks.gif' title='Emotion with landmarks' style='max-width:600px'></img>
-</p>
+[Demo] Discrete Emotion + Continuous Valence and Arousal levels      |  [Demo] Displaying Facial Landmarks
+:-------------------------------------------------------------------:|:--------------------------------------:
+<img src='images/emotion_only.gif' title='Emotion' style='max-width:600px'></img>  |  <img src='images/emotion_with_landmarks.gif' title='Emotion with landmarks' style='max-width:600px'></img>
 
 
 ## Youtube Video

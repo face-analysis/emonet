@@ -3,7 +3,8 @@
 Official implementation of the paper _"Estimation of continuous valence and arousal levels from faces in naturalistic conditions"_, Antoine Toisoul, Jean Kossaifi, Adrian Bulat, Georgios Tzimiropoulos and Maja Pantic, published in Nature Machine Intelligence, January 2021 [[1]](#Citation).
 Work done in collaboration between Samsung AI Center Cambridge and Imperial College London.
 
-Please find the full article on the [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-020-00280-0).
+Please find a full-text, view only, version of the paper [here](https://rdcu.be/cdnWi).
+The full article is available on the [Nature Machine Intelligence website](https://www.nature.com/articles/s42256-020-00280-0).
 
 [Demo] Discrete Emotion + Continuous Valence and Arousal levels      |  [Demo] Displaying Facial Landmarks
 :-------------------------------------------------------------------:|:--------------------------------------:

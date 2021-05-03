@@ -68,6 +68,33 @@ The program will output the following results :
     CCC=0.75, PCC=0.75, RMSE=0.27, SAGR=0.80
 ```
 
+#### Class number to expression name
+
+The mapping from class number to expression is as follows.
+
+```
+For 8 emotions :
+
+0 - Neutral
+1 - Happy
+2 - Sad
+3 - Surprise
+4 - Fear
+5 - Disgust
+6 - Anger
+7 - Contempt
+```
+
+```
+For 5 emotions :
+
+0 - Neutral
+1 - Happy
+2 - Sad
+3 - Surprise
+4 - Fear
+```
+
 ## Citation
 
 If you use this code, please cite:

@@ -33,13 +33,15 @@ The code requires the following Python packages :
 
 We provide two pretrained models : one on 5 emotional classes and one on 8 classes. In addition to categorical emotions, both models also predict valence and arousal values as well as facial landmarks.
 
-To evaluate the pretrained models on the cleaned test sets, simply run : 
+To evaluate the pretrained models on the cleaned AffectNet test set, you need to first download the [AffectNet dataset](http://mohammadmahoor.com/affectnet/). Then simply run : 
 
 ```
   python test.py --nclass 8
 ```
 
 where nclass defines which model you would like to test (5 or 8).
+
+Please note that the provided pickle file contain the list of images (filenames) that we used for testing but not the image files.
 
 The program will output the following results :
 

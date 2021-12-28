@@ -41,7 +41,7 @@ To evaluate the pretrained models on the cleaned AffectNet test set, you need to
 
 where nclass defines which model you would like to test (5 or 8).
 
-Please note that the provided pickle file contain the list of images (filenames) that we used for testing but not the image files.
+Please note that the provided pickle files contain the list of images (filenames) that we used for testing/validation but not the image files.
 
 The program will output the following results :
 

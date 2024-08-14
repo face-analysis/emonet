@@ -48,6 +48,6 @@ image_tensor = torch.Tensor(image_rgb).permute(2,0,1).to(device)/255.0
 with torch.no_grad():
     output = net(image_tensor.unsqueeze(0))
     predicted_emotion_class = torch.argmax(nn.functional.softmax(output["expression"], dim=1)).cpu().item()
-
+    
     # Expected output on example image: Predicted Emotion Happy - valence 0.064 - arousal 0.143
-    print(f"Predicted Emotion {emotion_classes[predicted_emotion_class]} - valence {output['valence'].cpu().item():.3f} - arousal {output['arousal'].cpu().item():.3f}")
+    print(f"Predicted Emotion {emotion_classes[predicted_emotion_class]} - valence {output['valence'].clamp(-1.0,1.0).cpu().item():.3f} - arousal {output['arousal'].clamp(-1.0,1.0).cpu().item():.3f}")

@@ -23,6 +23,8 @@ The full article is available on the [Nature Machine Intelligence website](https
 
 ## Testing the pretrained models
 
+Update August, 14th, 2024: We added ```demo.py``` as an example of how to run the model on a single face image.
+
 The code requires the following Python packages : 
 
 ```

@@ -20,10 +20,12 @@ The full article is available on the [Nature Machine Intelligence website](https
   <img src="https://img.youtube.com/vi/J8Skph65ghM/0.jpg"></a>
 </p>
 
+## Updates
 
-## Testing the pretrained models
+August, 24th, 2024: We added ```demo_video.py``` as an example of how to run face detection and emotion recognition on a video and visualize the results. 
+August, 14th, 2024: We added ```demo.py``` as an example of how to run the model on a single face image.
 
-Update August, 14th, 2024: We added ```demo.py``` as an example of how to run the model on a single face image.
+## Testing the pretrained models on an image/video
 
 The code requires the following Python packages : 
 
@@ -35,6 +37,20 @@ The code requires the following Python packages :
 ```
 
 We provide two pretrained models : one on 5 emotional classes and one on 8 classes. In addition to categorical emotions, both models also predict valence and arousal values as well as facial landmarks.
+
+To run the model on a single image you can use the following command:
+
+```
+  python demo.py --nclass 8 --image_path images/example.png
+```
+
+We also provide a script to run emotion recognition on a video and show the results with a visualization similar to what is presented in our Youtube video. To run the model on a given video, you can use the following command:
+
+```
+  python demo_video.py --nclass 8 --video_path relative_path_to_your_video.mp4 --output_path output.mp4
+```
+
+## Quantitatively testing the pretrained models
 
 To evaluate the pretrained models on the cleaned AffectNet test set, you need to first download the [AffectNet dataset](http://mohammadmahoor.com/affectnet/). Then simply run : 
 

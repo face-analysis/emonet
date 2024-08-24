@@ -31,6 +31,7 @@ The code requires the following Python packages :
   Pytorch (tested on version 1.2.0)
   OpenCV (tested on version 4.1.0
   skimage (tested on version 0.15.0)
+  face alignment (https://github.com/1adrianb/face-alignment)
 ```
 
 We provide two pretrained models : one on 5 emotional classes and one on 8 classes. In addition to categorical emotions, both models also predict valence and arousal values as well as facial landmarks.

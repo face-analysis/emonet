@@ -22,8 +22,9 @@ The full article is available on the [Nature Machine Intelligence website](https
 
 ## Updates
 
-August, 24th, 2024: We added ```demo_video.py``` as an example of how to run face detection and emotion recognition on a video and visualize the results. 
-August, 14th, 2024: We added ```demo.py``` as an example of how to run the model on a single face image.
+**August, 24th, 2024**: We added ```demo_video.py``` as an example of how to run face detection and emotion recognition on a video. The script includes a visualization similar to what is shown in our Youtube video. 
+
+**August, 14th, 2024**: We added ```demo.py``` as an example of how to run the model on a single face image.
 
 ## Testing the pretrained models on an image/video
 
@@ -44,7 +45,7 @@ To run the model on a single image you can use the following command:
   python demo.py --nclass 8 --image_path images/example.png
 ```
 
-We also provide a script to run emotion recognition on a video and show the results with a visualization similar to what is presented in our Youtube video. To run the model on a given video, you can use the following command:
+We also provide a script to run emotion recognition on a video. The script includes a visualization similar to what is shown in our Youtube video. To run the model on a given video, you can use the following command:
 
 ```
   python demo_video.py --nclass 8 --video_path relative_path_to_your_video.mp4 --output_path output.mp4

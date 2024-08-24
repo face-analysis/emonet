@@ -253,7 +253,7 @@ if __name__ == "__main__":
             detected_faces = sfd_detector.detect_from_image(frame[:, :, ::-1])
 
         # If at least a face has been detected, run emotion recognition on the first face
-        if detected_faces:
+        if len(detected_faces)>0:
             # Only take the first detected face
             bbox = np.array(detected_faces[0]).astype(np.int32)
 
